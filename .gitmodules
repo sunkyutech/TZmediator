@@ -1,0 +1,12 @@
+[submodule "optee_client"]
+	path = optee_client
+	url = https://github.com/sunkyutech/optee_client.git
+[submodule "wasm-micro-runtime"]
+	path = wasm-micro-runtime
+	url = https://github.com/sunkyutech/wasm-micro-runtime.git
+[submodule "build"]
+	path = build
+	url = https://github.com/sunkyutech/build.git
+[submodule "optee_os"]
+	path = optee_os
+	url = https://github.com/sunkyutech/optee_os.git
