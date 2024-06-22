@@ -1,0 +1,14 @@
+buildroot/
+hafnium/
+linux/
+mbedtls/
+optee_benchmark/
+optee_examples/
+optee_rust/
+optee_test/
+out/
+out-br/
+qemu/
+toolchains/
+trusted-firmware-a/
+u-boot/
