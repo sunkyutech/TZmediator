@@ -474,8 +474,8 @@ run-only:
 	ln -sf $(ROOT)/out-br/images/rootfs.cpio.gz $(BINARIES_PATH)/
 	$(call check-terminal)
 	$(call run-help)
-	$(call launch-terminal,54320,"Normal World")
-	$(call launch-terminal,54321,"Secure World")
+	# $(call launch-terminal,54320,"Normal World")
+	# $(call launch-terminal,54321,"Secure World")
 	$(call wait-for-ports,54320,54321)
 	cd $(BINARIES_PATH) && $(QEMU_BUILD)/aarch64-softmmu/qemu-system-aarch64 \
 		-nographic \
